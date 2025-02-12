@@ -1,0 +1,1148 @@
+﻿<CAEXFile SchemaVersion="2.15" FileName="SF 71.01.01-001 Safetec Update_2.aml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="CAEX_ClassModel_V2.15.xsd">
+  <Description>This document is generated from the Asset Administration Shell [trunk] #55 [mdrawnodat01.kongsberg.master.int:3579 Saved by User: mlauritsen] on 2023-10-27 15:50:26 using the UML2AML template.</Description>
+  <AdditionalInformation />
+  <AdditionalInformation DocumentVersions="Recommendations" />
+  <AdditionalInformation AutomationMLVersion="2.0" />
+  <AdditionalInformation>
+    <WriterHeader>
+      <WriterName>Asset Administration Shell [trunk] #55 [mdrawnodat01.kongsberg.master.int:3579 Saved by User: mlauritsen] </WriterName>
+      <WriterID></WriterID>
+      <WriterVendor>KONGSBERG</WriterVendor>
+      <WriterVendorURL>www.kongsberg.com</WriterVendorURL>
+      <WriterVersion>55</WriterVersion>
+      <WriterRelease></WriterRelease>
+      <LastWritingDateTime>2023-10-27T15:50:26+02:00</LastWritingDateTime>
+      <WriterProjectTitle></WriterProjectTitle>
+      <WriterProjectID></WriterProjectID>
+    </WriterHeader>
+  </AdditionalInformation>
+  <AdditionalInformation>
+    <WriterHeader>
+      <WriterName>AutomationML Editor</WriterName>
+      <WriterID>916578CA-FE0D-474E-A4FC-9E1719892369</WriterID>
+      <WriterVendor>AutomationML e.V.</WriterVendor>
+      <WriterVendorURL>www.AutomationML.org</WriterVendorURL>
+      <WriterVersion>6.1.7.0</WriterVersion>
+      <WriterRelease>6.1.7.0</WriterRelease>
+      <LastWritingDateTime>2024-09-12T15:08:26.5493136</LastWritingDateTime>
+      <WriterProjectTitle>unspecified</WriterProjectTitle>
+      <WriterProjectID>unspecified</WriterProjectID>
+    </WriterHeader>
+  </AdditionalInformation>
+  <InstanceHierarchy Name="SF 71.01.01-001">
+    <Version>0</Version>
+    <InternalElement Name="SIF" ID="61325bfa-a49a-4c43-aeb9-f776e5992f52" RefBaseSystemUnitPath="SIF Unit Classes/SIF">
+      <Attribute Name="SIFID" ID="461f6912-4a9e-4351-86e7-e7c89462c21a">
+        <Description></Description>
+        <Value>SF 71.01.01-001</Value>
+      </Attribute>
+      <InternalElement Name="SIFSubsystem" ID="d7e3852a-5412-4784-aded-80c30b1ed1b9">
+        <Description></Description>
+        <Attribute Name="PFD" ID="8ddea0c2-0943-43fc-b2e7-ab1b02c12ae0" AttributeDataType="xs:decimal">
+          <Description></Description>
+          <Value>0.01</Value>
+        </Attribute>
+        <Attribute Name="SIL" ID="de855981-6738-4954-91f6-c2c9a729b1cf">
+          <Description></Description>
+          <Value>SIL2</Value>
+        </Attribute>
+        <Attribute Name="SRT" ID="4f9ff5ee-be85-48dd-84b4-cab0292e1689">
+          <Description></Description>
+          <Value>8</Value>
+        </Attribute>
+        <Attribute Name="MTBF" ID="abc627b5-2ad4-41c7-8c1c-380de7bb2221">
+          <Description></Description>
+        </Attribute>
+        <Attribute Name="PST" ID="0a714ed8-7c46-4612-8fb4-c6a515fbc661">
+          <Description></Description>
+          <DefaultValue></DefaultValue>
+          <Value></Value>
+        </Attribute>
+        <Attribute Name="TI" ID="1dbc0d58-8000-4b62-a484-cea3e97d1328">
+          <Description></Description>
+          <DefaultValue>8760</DefaultValue>
+          <Value></Value>
+        </Attribute>
+        <InternalElement Name="Solver" ID="a98c92de-1620-467c-a7f9-705244a0bf3f" RefBaseSystemUnitPath="SIF Unit Classes/SIFComponent">
+          <Description></Description>
+          <InternalElement Name="SolverComponent (Insert TAG ID)" ID="a68d84b4-3e1f-429b-b01c-59986f8e5228" RefBaseSystemUnitPath="SIS Unit Classes/SolverComponent">
+            <Attribute Name="SIL" ID="bf1a442d-c396-42e6-b048-f95342a3dfe0">
+              <Description></Description>
+              <DefaultValue>SIL2</DefaultValue>
+              <Value>SIL2</Value>
+              <RefSemantic CorrespondingAttributePath="Types/SILLevel" />
+            </Attribute>
+            <Attribute Name="PFD" ID="1c13e1e2-3da4-4676-b922-46b819fe5bd0" AttributeDataType="xs:decimal">
+              <Description></Description>
+              <Value>0.0015</Value>
+            </Attribute>
+            <Attribute Name="TI" ID="04ed63ef-381c-4c98-b7d1-9b0c998b3a20">
+              <Description></Description>
+              <DefaultValue>8760</DefaultValue>
+              <Value>8760</Value>
+            </Attribute>
+          </InternalElement>
+          <InternalElement Name="ComponentVoter" ID="087e4b75-db0e-477b-a461-6772cdf34441">
+            <Attribute Name="M" ID="efdf8454-8774-4326-8f92-afee0ec979ae">
+              <Description></Description>
+              <Value>1</Value>
+            </Attribute>
+          </InternalElement>
+        </InternalElement>
+        <InternalElement Name="FinalElement" ID="8bf88f1e-88ad-4a2a-bcaa-2357c113b960" RefBaseSystemUnitPath="SIF Unit Classes/SIFComponent">
+          <Description></Description>
+          <Attribute Name="SafeState" ID="59fbe036-d270-4aed-a71e-b53c38dcf16e">
+            <Description></Description>
+          </Attribute>
+          <Attribute Name="PFDContribution" ID="1729eee6-c31f-46b7-ad6f-89efa2d62c8a">
+            <Description></Description>
+          </Attribute>
+          <Attribute Name="MTBF" ID="db7a6a08-99a9-4cd9-8d7f-0faab6fe70b1">
+            <Description></Description>
+          </Attribute>
+          <Attribute Name="MTTR" ID="15f777b4-3892-429f-90cd-0726d079103e">
+            <Description></Description>
+          </Attribute>
+          <Attribute Name="LoopTypical" ID="a1267615-4511-4576-b990-82fc52cd73fb">
+            <Description></Description>
+          </Attribute>
+          <Attribute Name="LT" ID="26129519-421f-40b6-8b33-a684c48258b2">
+            <Description></Description>
+          </Attribute>
+          <Attribute Name="RT" ID="9551e697-bbf7-4b0a-8bcc-45f784d1617d">
+            <Description></Description>
+          </Attribute>
+          <Attribute Name="PTI" ID="3dabea0a-e283-4c21-a10f-b059329aba30">
+            <Description></Description>
+          </Attribute>
+          <Attribute Name="PTC" ID="def73e43-d395-49ff-a109-6a4b61b816aa">
+            <Description></Description>
+          </Attribute>
+          <Attribute Name="λDU" ID="39f1255a-e93a-43c5-bae7-86da5d8497f9">
+            <Description></Description>
+          </Attribute>
+          <Attribute Name="λDD" ID="0bd0c734-4001-454c-8544-6bee3e82b990">
+            <Description></Description>
+          </Attribute>
+          <Attribute Name="λS" ID="9e714ad8-15c9-406b-8a8b-3101e2a70106">
+            <Description></Description>
+          </Attribute>
+          <Attribute Name="SFF" ID="e49e695b-2270-4305-9423-96618b9164eb">
+            <Description></Description>
+          </Attribute>
+          <Attribute Name="DC" ID="6c4d6ce8-0231-4d7e-91bb-607893c0ecf1">
+            <Description></Description>
+          </Attribute>
+          <InternalElement Name="GroupVoter" ID="e9113267-ab34-41e8-a788-284dbbc57074">
+            <Description></Description>
+            <Attribute Name="M" ID="e82bed77-5521-483c-9ee8-f6edc1a514f0">
+              <Description></Description>
+              <Value>2</Value>
+            </Attribute>
+          </InternalElement>
+          <InternalElement Name="Group 1" ID="b61d2f57-9107-4006-8c94-597d4915e621" RefBaseSystemUnitPath="SIF Unit Classes/Group">
+            <InternalElement Name="GroupVoter" ID="df4593d3-ad86-4e64-a8e5-82ba719b8f06">
+              <Description></Description>
+              <Attribute Name="M" ID="49526928-75ef-442c-b06e-3f68efd56a92">
+                <Description></Description>
+                <Value>3</Value>
+              </Attribute>
+            </InternalElement>
+            <InternalElement Name="FinalGroup1" ID="1f0259f5-4c0c-4d0d-99fe-0f06695ab4e7" RefBaseSystemUnitPath="SIF Unit Classes/Group">
+              <Description></Description>
+              <InternalElement Name="71PI100" ID="35a8c078-dcc1-49b6-bfdb-30ff656388fb" RefBaseSystemUnitPath="SIS Unit Classes/FinalComponent">
+                <Attribute Name="SIL" ID="0dde96d5-4141-4c17-97d8-c5375b3f9b7a">
+                  <Description></Description>
+                  <Value>SIL2</Value>
+                </Attribute>
+                <Attribute Name="Function" ID="f253b363-47b0-41f0-b7d2-1c92975741f7">
+                  <Description></Description>
+                  <Value>Solenoid</Value>
+                </Attribute>
+                <Attribute Name="LoopTypical" ID="608c6200-3084-4b26-8812-c9521805638a">
+                  <Description></Description>
+                </Attribute>
+                <Attribute Name="PTI" ID="c5f3998f-25b5-4c30-a37f-c22dcdfe0add">
+                  <Description></Description>
+                  <DefaultValue>8760</DefaultValue>
+                  <Value>336</Value>
+                </Attribute>
+                <Attribute Name="SafeState" ID="251d54d6-6617-48c1-8d8c-908046539c76">
+                  <Description></Description>
+                  <Value>De-energize</Value>
+                </Attribute>
+                <Attribute Name="PFD" ID="c5c6e1ab-b4e3-4fd6-8f39-0328f546206f" AttributeDataType="xs:decimal">
+                  <Description></Description>
+                  <Value>0.0025</Value>
+                </Attribute>
+              </InternalElement>
+              <InternalElement Name="71YI1200" ID="c7ef87bc-23cc-43bf-91c0-454cf9801482" RefBaseSystemUnitPath="SIS Unit Classes/FinalComponent">
+                <Attribute Name="SIL" ID="94c8ad7f-aaeb-4de5-afe2-23bd4269bee5">
+                  <Description></Description>
+                  <Value>SIL2</Value>
+                </Attribute>
+                <Attribute Name="Function" ID="f350c421-c6ba-4f83-b411-11602343626b">
+                  <Description></Description>
+                  <Value>Solenoid</Value>
+                </Attribute>
+                <Attribute Name="LoopTypical" ID="df48dd39-6a0b-4b73-a947-4c72a89f4a87">
+                  <Description></Description>
+                </Attribute>
+                <Attribute Name="PTI" ID="55869399-b5f9-4bf9-b0cf-deaa9126d80d">
+                  <Description></Description>
+                  <DefaultValue>8760</DefaultValue>
+                  <Value>336</Value>
+                </Attribute>
+                <Attribute Name="SafeState" ID="af375063-385e-4cde-a272-6d65962b29a6">
+                  <Description></Description>
+                  <Value>De-energize</Value>
+                </Attribute>
+                <Attribute Name="PFD" ID="a2602adc-9c72-4c0a-afc7-53b438c253b2" AttributeDataType="xs:decimal">
+                  <Description></Description>
+                  <Value>0.0025</Value>
+                </Attribute>
+              </InternalElement>
+              <InternalElement Name="VC71-6018" ID="7ec42c5c-e1c5-4df8-a62b-eea32bc9b33b" RefBaseSystemUnitPath="SIS Unit Classes/FinalComponent">
+                <Attribute Name="SIL" ID="ffd49bbe-9428-4ffd-b4a1-6ad7a22bc197">
+                  <Description></Description>
+                  <Value>SIL2</Value>
+                </Attribute>
+                <Attribute Name="Function" ID="1ead0ea3-1096-4bc1-93d3-eb62000f7b91">
+                  <Description></Description>
+                </Attribute>
+                <Attribute Name="LoopTypical" ID="15f2e6d9-e2e9-471c-85ff-a6e8d42c39ff">
+                  <Description></Description>
+                </Attribute>
+                <Attribute Name="PTI" ID="830c7f87-d509-4174-9ed1-b3a969b872a6">
+                  <Description></Description>
+                  <DefaultValue>8760</DefaultValue>
+                  <Value>336</Value>
+                </Attribute>
+                <Attribute Name="SafeState" ID="691e6a89-6451-441d-89dd-1b7777b3a9d9">
+                  <Description></Description>
+                  <Value>Open</Value>
+                </Attribute>
+                <Attribute Name="PFD" ID="fd1fe918-d916-4e86-8b09-256f86ca8603" AttributeDataType="xs:decimal">
+                  <Description></Description>
+                  <Value>0.0025</Value>
+                </Attribute>
+              </InternalElement>
+              <InternalElement Name="ComponentVoter" ID="7b0f7a47-1a7b-4278-aa09-f2619743e4c6">
+                <Description></Description>
+                <Attribute Name="M" ID="6a82012e-bfc2-454e-b59d-72d91403bea0">
+                  <Description></Description>
+                  <Value>3</Value>
+                </Attribute>
+              </InternalElement>
+            </InternalElement>
+            <InternalElement Name="FinalGroup2" ID="483a4bb8-e99c-4841-9e5d-5c385230b062" RefBaseSystemUnitPath="SIF Unit Classes/Group">
+              <Description></Description>
+              <InternalElement Name="71PI200" ID="63b6d747-d3c4-45a6-966c-c80349fedc24" RefBaseSystemUnitPath="SIS Unit Classes/FinalComponent">
+                <Attribute Name="SIL" ID="8764f2c0-49cf-4a86-8f7b-f119a91e70c5">
+                  <Description></Description>
+                  <Value>SIL2</Value>
+                </Attribute>
+                <Attribute Name="Function" ID="e7fc80af-cb58-421d-bd3a-b658e17e7ad5">
+                  <Description></Description>
+                  <Value>Solenoid</Value>
+                </Attribute>
+                <Attribute Name="LoopTypical" ID="d4e67f21-8ed4-4aa7-9f9a-2ae1cb8b2714">
+                  <Description></Description>
+                </Attribute>
+                <Attribute Name="PTI" ID="1a260efb-44b2-49e9-bd5b-bff3356be35e">
+                  <Description></Description>
+                  <DefaultValue>8760</DefaultValue>
+                  <Value>336</Value>
+                </Attribute>
+                <Attribute Name="SafeState" ID="1cf33ed8-a8f8-4254-a59f-eab528aca80c">
+                  <Description></Description>
+                  <Value>De-energize</Value>
+                </Attribute>
+                <Attribute Name="PFD" ID="0415fc4d-6016-45b3-8c19-266edb176439" AttributeDataType="xs:decimal">
+                  <Description></Description>
+                  <Value>0.0025</Value>
+                </Attribute>
+              </InternalElement>
+              <InternalElement Name="71YI2200" ID="6ffa0e77-b8b8-4b93-92b2-812cce6800ba" RefBaseSystemUnitPath="SIS Unit Classes/FinalComponent">
+                <Attribute Name="SIL" ID="d70163ef-e8e2-4632-bd0d-8ca2251c0e83">
+                  <Description></Description>
+                  <Value>SIL2</Value>
+                </Attribute>
+                <Attribute Name="Function" ID="501af9ca-c95c-4c3c-9dfb-43d0bac6af08">
+                  <Description></Description>
+                  <Value>Solenoid</Value>
+                </Attribute>
+                <Attribute Name="LoopTypical" ID="25da5c4e-fd04-47f5-b268-8290bb843646">
+                  <Description></Description>
+                </Attribute>
+                <Attribute Name="PTI" ID="df669653-2d74-487a-9c1c-5b3447cd9d98">
+                  <Description></Description>
+                  <DefaultValue>8760</DefaultValue>
+                  <Value>336</Value>
+                </Attribute>
+                <Attribute Name="SafeState" ID="53ad0bf8-5f86-4f29-a537-06fa557bcd20">
+                  <Description></Description>
+                  <Value>De-energize</Value>
+                </Attribute>
+                <Attribute Name="PFD" ID="59033d9c-5676-46b6-a1ce-bf923a4e00e2" AttributeDataType="xs:decimal">
+                  <Description></Description>
+                  <Value>0.0025</Value>
+                </Attribute>
+              </InternalElement>
+              <InternalElement Name="VC71-6017" ID="5b790da6-ece3-4b92-90a8-0b97a158048a" RefBaseSystemUnitPath="SIS Unit Classes/FinalComponent">
+                <Attribute Name="SIL" ID="bdb72099-607d-4f7c-87b8-f1b656b88cae">
+                  <Description></Description>
+                  <Value>SIL2</Value>
+                </Attribute>
+                <Attribute Name="Function" ID="eff13815-e1bf-41c6-916c-0eb6469fb534">
+                  <Description></Description>
+                </Attribute>
+                <Attribute Name="LoopTypical" ID="7b8c20c1-906a-4cd1-8a80-04ea373164e2">
+                  <Description></Description>
+                </Attribute>
+                <Attribute Name="PTI" ID="8fecfdfe-34a2-492f-a43d-0b6fa0d4ece1">
+                  <Description></Description>
+                  <DefaultValue>8760</DefaultValue>
+                  <Value>336</Value>
+                </Attribute>
+                <Attribute Name="SafeState" ID="f185df1f-5abf-42e9-bf92-8ce7713b9a41">
+                  <Description></Description>
+                  <Value>Open</Value>
+                </Attribute>
+                <Attribute Name="PFD" ID="afda0f94-9fdb-4408-a19c-3d38f03d91ce" AttributeDataType="xs:decimal">
+                  <Description></Description>
+                  <Value>0.0025</Value>
+                </Attribute>
+              </InternalElement>
+              <InternalElement Name="ComponentVoter" ID="951453de-cdbf-496e-b242-68f9a996fc6b">
+                <Description></Description>
+                <Attribute Name="M" ID="cd62be8e-34d5-4f3e-b7d0-0983656e2cf0">
+                  <Description></Description>
+                  <Value>3</Value>
+                </Attribute>
+              </InternalElement>
+            </InternalElement>
+            <InternalElement Name="FinalGroup3" ID="d2dfe9f6-549e-47f8-8927-adc48755e446" RefBaseSystemUnitPath="SIF Unit Classes/Group">
+              <Description></Description>
+              <InternalElement Name="71PI300" ID="c49a545e-90dc-4192-be8a-88ac6042fd6b" RefBaseSystemUnitPath="SIS Unit Classes/FinalComponent">
+                <Attribute Name="SIL" ID="e21d7f42-5572-46c2-97c7-3981307ca5aa">
+                  <Description></Description>
+                  <Value>SIL2</Value>
+                </Attribute>
+                <Attribute Name="Function" ID="a0ac8798-8614-4c4d-8b50-b69842201ca4">
+                  <Description></Description>
+                  <Value>Solenoid</Value>
+                </Attribute>
+                <Attribute Name="LoopTypical" ID="90f60ccc-acb4-4e66-bc26-45d08819c5b4">
+                  <Description></Description>
+                </Attribute>
+                <Attribute Name="PTI" ID="9fe5d34e-19d7-43e4-b80d-3e791f4fe828">
+                  <Description></Description>
+                  <DefaultValue>8760</DefaultValue>
+                  <Value>336</Value>
+                </Attribute>
+                <Attribute Name="SafeState" ID="b7a551f9-7845-4d49-9991-dd6e20a23a39">
+                  <Description></Description>
+                  <Value>De-energize</Value>
+                </Attribute>
+                <Attribute Name="PFD" ID="0c573082-d047-4261-9b4b-070aec8eb1ac" AttributeDataType="xs:decimal">
+                  <Description></Description>
+                  <Value>0.0025</Value>
+                </Attribute>
+              </InternalElement>
+              <InternalElement Name="71YI3200" ID="863c5e3d-9be8-4d7b-887a-9083f66411a3" RefBaseSystemUnitPath="SIS Unit Classes/FinalComponent">
+                <Attribute Name="SIL" ID="d094ec77-bd1a-427c-8f9f-c448cbfefc95">
+                  <Description></Description>
+                  <Value>SIL2</Value>
+                </Attribute>
+                <Attribute Name="Function" ID="ef8b8674-efbb-4d41-8619-9d22f7375328">
+                  <Description></Description>
+                  <Value>Solenoid</Value>
+                </Attribute>
+                <Attribute Name="LoopTypical" ID="f30373a1-32ca-4787-8e69-0a1c162f348a">
+                  <Description></Description>
+                </Attribute>
+                <Attribute Name="PTI" ID="f2867768-1c36-4b41-bd51-e2b378e579d2">
+                  <Description></Description>
+                  <DefaultValue>8760</DefaultValue>
+                  <Value>336</Value>
+                </Attribute>
+                <Attribute Name="SafeState" ID="36d24295-02c8-43d5-adc7-d6b5df5d8382">
+                  <Description></Description>
+                  <Value>De-energize</Value>
+                </Attribute>
+                <Attribute Name="PFD" ID="9a9e0ba6-8c87-41e7-b733-d53d39e17697" AttributeDataType="xs:decimal">
+                  <Description></Description>
+                  <Value>0.0025</Value>
+                </Attribute>
+              </InternalElement>
+              <InternalElement Name="VC71-6018" ID="67b96bda-8257-4336-ab67-3878a7e55aa1" RefBaseSystemUnitPath="SIS Unit Classes/FinalComponent">
+                <Attribute Name="SIL" ID="910e17bb-9ea8-47f0-982b-1e7978467fdb">
+                  <Description></Description>
+                  <Value>SIL2</Value>
+                </Attribute>
+                <Attribute Name="Function" ID="f588c782-8486-433d-ae25-391292c8867c">
+                  <Description></Description>
+                </Attribute>
+                <Attribute Name="LoopTypical" ID="1626ab23-11c4-4180-a227-d97495991c20">
+                  <Description></Description>
+                </Attribute>
+                <Attribute Name="PTI" ID="4ec5d468-900c-430e-a22e-88d47bba976a">
+                  <Description></Description>
+                  <DefaultValue>8760</DefaultValue>
+                  <Value>336</Value>
+                </Attribute>
+                <Attribute Name="SafeState" ID="bd0e8237-5a38-4f70-81f9-ecbce5d17a2e">
+                  <Description></Description>
+                  <Value>Open</Value>
+                </Attribute>
+                <Attribute Name="PFD" ID="d1c11417-4e72-44b9-a27d-69c1934469ae" AttributeDataType="xs:decimal">
+                  <Description></Description>
+                  <Value>0.0025</Value>
+                </Attribute>
+              </InternalElement>
+              <InternalElement Name="ComponentVoter" ID="277c08d6-a5ed-4395-a5b9-7b21aa12c2c5">
+                <Description></Description>
+                <Attribute Name="M" ID="bb550ad8-3845-4f60-a2a9-6f72cd7cd387">
+                  <Description></Description>
+                  <Value>3</Value>
+                </Attribute>
+              </InternalElement>
+            </InternalElement>
+            <InternalElement Name="FinalGroup4" ID="337ff704-81ef-4da1-a043-798efa71a54d" RefBaseSystemUnitPath="SIF Unit Classes/Group">
+              <Description></Description>
+              <InternalElement Name="71PI400" ID="6f137ae6-1c06-46d0-b40f-b148e8af4e36" RefBaseSystemUnitPath="SIS Unit Classes/FinalComponent">
+                <Attribute Name="SIL" ID="14f85f09-5c92-4b0c-866f-6510c00dcad7">
+                  <Description></Description>
+                  <Value>SIL2</Value>
+                </Attribute>
+                <Attribute Name="Function" ID="6cd0ae77-1100-4ed9-958f-7e6c2b98bd2e">
+                  <Description></Description>
+                  <Value>Solenoid</Value>
+                </Attribute>
+                <Attribute Name="LoopTypical" ID="d6b6a262-af29-4f22-87a8-9799b861690d">
+                  <Description></Description>
+                </Attribute>
+                <Attribute Name="PTI" ID="4c9386d7-79f9-4581-bea0-f533cc70f117">
+                  <Description></Description>
+                  <DefaultValue>8760</DefaultValue>
+                  <Value>336</Value>
+                </Attribute>
+                <Attribute Name="SafeState" ID="73f804ff-6b78-4a8d-8428-ca5dd94dd5e6">
+                  <Description></Description>
+                  <Value>De-energize</Value>
+                </Attribute>
+                <Attribute Name="PFD" ID="0fca94dc-38c0-435c-a29a-c1f104a9943c" AttributeDataType="xs:decimal">
+                  <Description></Description>
+                  <Value>0.0025</Value>
+                </Attribute>
+              </InternalElement>
+              <InternalElement Name="71YI4200" ID="db45765f-e769-424d-862f-68808436da79" RefBaseSystemUnitPath="SIS Unit Classes/FinalComponent">
+                <Attribute Name="SIL" ID="cde9cc6a-eb9e-4dbf-b2e5-6725793663b5">
+                  <Description></Description>
+                  <Value>SIL2</Value>
+                </Attribute>
+                <Attribute Name="Function" ID="ee542897-e6d1-4462-b40b-d202434abdbd">
+                  <Description></Description>
+                  <Value>Solenoid</Value>
+                </Attribute>
+                <Attribute Name="LoopTypical" ID="080d8018-0019-4741-9fb3-826f3b795787">
+                  <Description></Description>
+                </Attribute>
+                <Attribute Name="PTI" ID="868474b7-aa0b-43e4-97f3-7ccc8e0bb44e">
+                  <Description></Description>
+                  <DefaultValue>8760</DefaultValue>
+                  <Value>336</Value>
+                </Attribute>
+                <Attribute Name="SafeState" ID="442546c8-82a9-407b-a06e-f24e6abd4d08">
+                  <Description></Description>
+                  <Value>De-energize</Value>
+                </Attribute>
+                <Attribute Name="PFD" ID="ef5c9ee5-8c79-483c-844f-a093fbdb2d06" AttributeDataType="xs:decimal">
+                  <Description></Description>
+                  <Value>0.0025</Value>
+                </Attribute>
+              </InternalElement>
+              <InternalElement Name="VC71-6015" ID="f6594fb4-c57b-489a-a01b-a76062d7bf61" RefBaseSystemUnitPath="SIS Unit Classes/FinalComponent">
+                <Attribute Name="SIL" ID="5e2d5057-85c8-470f-8455-3347d64c3bec">
+                  <Description></Description>
+                  <Value>SIL2</Value>
+                </Attribute>
+                <Attribute Name="Function" ID="df617c8d-e67e-4c65-a903-bff9649ce194">
+                  <Description></Description>
+                </Attribute>
+                <Attribute Name="LoopTypical" ID="b14cd42c-752a-4b3a-8438-0c21ee546544">
+                  <Description></Description>
+                </Attribute>
+                <Attribute Name="PTI" ID="be051556-882e-4f7a-8300-6fa67393e9f4">
+                  <Description></Description>
+                  <DefaultValue>8760</DefaultValue>
+                  <Value>336</Value>
+                </Attribute>
+                <Attribute Name="SafeState" ID="9d5e51cc-a5d1-4a1a-84dc-9f33875e0a69">
+                  <Description></Description>
+                  <Value>Open</Value>
+                </Attribute>
+                <Attribute Name="PFD" ID="aed046a8-48bf-4134-acd7-1c8da4dba8d2" AttributeDataType="xs:decimal">
+                  <Description></Description>
+                  <Value>0.0025</Value>
+                </Attribute>
+              </InternalElement>
+              <InternalElement Name="ComponentVoter" ID="cf4b5f18-569f-4c38-92c7-60fc82d07645">
+                <Description></Description>
+                <Attribute Name="M" ID="1d38c8a5-e263-4f82-854b-77b6ba6b112c">
+                  <Description></Description>
+                  <Value>3</Value>
+                </Attribute>
+              </InternalElement>
+            </InternalElement>
+          </InternalElement>
+          <InternalElement Name="Group 2" ID="a0532391-51de-4273-9356-553437f08109" RefBaseSystemUnitPath="SIF Unit Classes/Group">
+            <Attribute Name="β" ID="38ebbacb-ae95-44f5-aaa7-5c42d2df91b1">
+              <Description></Description>
+            </Attribute>
+            <Attribute Name="SIL" ID="ac5766d5-56c3-42a2-8ad0-f43c247d2273">
+              <Description></Description>
+            </Attribute>
+            <InternalElement Name="ComponentVoter" ID="9462e053-b2ac-4c99-8dc8-e0999ceaef8e">
+              <Description></Description>
+              <Attribute Name="M" ID="8f2161c4-2854-447f-8e35-25734855fee7">
+                <Description></Description>
+                <Value>2</Value>
+              </Attribute>
+            </InternalElement>
+            <InternalElement Name="71XSY0100" ID="2cc67db0-f822-4ffa-b665-03975cfaf773" RefBaseSystemUnitPath="SIS Unit Classes/FinalComponent">
+              <Attribute Name="SIL" ID="fa3d6d33-9594-4c52-a11d-493980f3b6ac">
+                <Description></Description>
+                <Value>SIL2</Value>
+              </Attribute>
+              <Attribute Name="Function" ID="18774568-5896-4d8e-b749-88026f028521">
+                <Description></Description>
+                <Value>Solenoid</Value>
+              </Attribute>
+              <Attribute Name="LoopTypical" ID="b262be20-917a-41d3-bdf7-9bfe2860e69f">
+                <Description></Description>
+              </Attribute>
+              <Attribute Name="PTI" ID="148e600b-a46a-4ca8-93ea-b57dd3e2143f">
+                <Description></Description>
+                <DefaultValue>8760</DefaultValue>
+                <Value>4380</Value>
+              </Attribute>
+              <Attribute Name="SafeState" ID="3df504e5-a165-4aaa-91fd-f5921aaa251b">
+                <Description></Description>
+                <Value>De-energize</Value>
+              </Attribute>
+              <Attribute Name="PFD" ID="f16d5bc2-480c-44e4-97c6-7cd0a23e47e1" AttributeDataType="xs:decimal">
+                <Description></Description>
+                <Value>0.005</Value>
+              </Attribute>
+            </InternalElement>
+            <InternalElement Name="71XSV0100" ID="0cd9ab8a-2fc1-483a-93ef-aff814c751b6" RefBaseSystemUnitPath="SIS Unit Classes/FinalComponent">
+              <Attribute Name="SIL" ID="f4e200cb-8e9a-4da4-ba68-bbf333d5a26c">
+                <Description></Description>
+                <Value>SIL2</Value>
+              </Attribute>
+              <Attribute Name="Function" ID="01fe9039-cec9-4545-a505-48fc79d1e6f7">
+                <Description></Description>
+              </Attribute>
+              <Attribute Name="LoopTypical" ID="1a0b73a6-8dc7-44c2-96c8-7fd868c18f9c">
+                <Description></Description>
+              </Attribute>
+              <Attribute Name="PTI" ID="6843bfe8-dfd8-4fa8-81f6-7c7759d7c46d">
+                <Description></Description>
+                <DefaultValue>8760</DefaultValue>
+                <Value>4380</Value>
+              </Attribute>
+              <Attribute Name="SafeState" ID="8273228e-ffbf-45f4-9b33-9383b1da6877">
+                <Description></Description>
+                <Value>Open</Value>
+              </Attribute>
+              <Attribute Name="PFD" ID="2eea4ee9-4ec0-45d5-a216-f518fd248305" AttributeDataType="xs:decimal">
+                <Description></Description>
+                <Value>0.005</Value>
+              </Attribute>
+            </InternalElement>
+          </InternalElement>
+        </InternalElement>
+      </InternalElement>
+    </InternalElement>
+  </InstanceHierarchy>
+  <RoleClassLib Name="CDD">
+    <Description></Description>
+    <RoleClass Name="" ID="ccfc4277-6e14-4956-8a08-0dc213a07a56">
+      <Description></Description>
+    </RoleClass>
+    <RoleClass Name="ProofTestInterval" ID="729a42c2-b693-4c5d-929d-340483ead58d">
+      <Description></Description>
+      <Attribute Name="definition" ID="d199459f-eaf2-4773-910a-c5c5c305f229">
+        <Value>interval between tests for failures which are not automatically revealed</Value>
+      </Attribute>
+      <Attribute Name="code" ID="a08a2e56-9a1d-41f7-a9bf-720080a2c935">
+        <Value>ABB911</Value>
+      </Attribute>
+    </RoleClass>
+    <RoleClass Name="TagName" ID="a32ab027-be3f-4148-b664-1505f81e2072">
+      <Description></Description>
+      <Attribute Name="code" ID="a08a2e56-9a1d-41f7-a9bf-720080a2c935">
+        <Value>ABB271</Value>
+      </Attribute>
+      <Attribute Name="definition" ID="d199459f-eaf2-4773-910a-c5c5c305f229">
+        <Value>alphanumeric character sequence uniquely identifying a measuring or control point</Value>
+      </Attribute>
+    </RoleClass>
+    <RoleClass Name="FailSafePosition" ID="e156bf4d-d8f9-466d-903a-07ad86a88fd2">
+      <Description></Description>
+      <Attribute Name="code" ID="a08a2e56-9a1d-41f7-a9bf-720080a2c935">
+        <Value>ABE648</Value>
+      </Attribute>
+      <Attribute Name="definition" ID="d199459f-eaf2-4773-910a-c5c5c305f229">
+        <Value>position of a valve in de-energized state</Value>
+      </Attribute>
+    </RoleClass>
+    <RoleClass Name="SafetyIntegrityLevel" ID="ba1970c1-2799-4076-87c0-35245a755293">
+      <Description></Description>
+      <Attribute Name="code" ID="a08a2e56-9a1d-41f7-a9bf-720080a2c935">
+        <Value>ABB202</Value>
+      </Attribute>
+      <Attribute Name="definition" ID="d199459f-eaf2-4773-910a-c5c5c305f229">
+        <Value>discrete level (one out of a possible four), corresponding to a range of safety integrity values, where safety integrity level 4 has the highest level of safety integrity and safety integrity level 1 has the lowest</Value>
+      </Attribute>
+    </RoleClass>
+    <RoleClass Name="ValueOfTripPoint" ID="3edaa7ce-6eb5-4cb4-8c94-cea07d1d0392">
+      <Description></Description>
+      <Attribute Name="code" ID="a08a2e56-9a1d-41f7-a9bf-720080a2c935">
+        <Value>ABH706</Value>
+      </Attribute>
+      <Attribute Name="definition" ID="d199459f-eaf2-4773-910a-c5c5c305f229">
+        <Value>value of a trip point variable
+(standardized unit of measure for the value of a trip point)</Value>
+      </Attribute>
+    </RoleClass>
+    <RoleClass Name="ModeOfOperation" ID="9d2432cc-9a6e-4e85-a7aa-f6b29f7458fd">
+      <Description></Description>
+      <Attribute Name="code" ID="a08a2e56-9a1d-41f7-a9bf-720080a2c935">
+        <Value>ABB910</Value>
+      </Attribute>
+      <Attribute Name="definition" ID="d199459f-eaf2-4773-910a-c5c5c305f229">
+        <Value>way in which a safety-related system is intended to be used, with respect to the frequency of demands made upon it, which may be either low demand mode, where the frequency of demands for operation made on a safety related, system is no greater than one per year and no greater than twice the proof-test, frequency; or high demand or continuous mode, where the frequency of demands for operation made, on a safety-related system is greater than one per year or greater than twice the proof check frequency</Value>
+      </Attribute>
+    </RoleClass>
+    <RoleClass Name="ControlCircuitResponseTime" ID="970b180b-bdb7-4eca-bd69-97dc87f7802a">
+      <Description></Description>
+      <Attribute Name="code" ID="a08a2e56-9a1d-41f7-a9bf-720080a2c935">
+        <Value>ABB593</Value>
+      </Attribute>
+      <Attribute Name="definition" ID="d199459f-eaf2-4773-910a-c5c5c305f229">
+        <Value>time that elapses between the activation of a control and the response of the device or measuring assembly</Value>
+      </Attribute>
+    </RoleClass>
+  </RoleClassLib>
+  <SystemUnitClassLib Name="CE Unit Classes">
+    <Description></Description>
+    <SystemUnitClass Name="CESIS" ID="963b36e5-fe98-4b06-bf9b-fd511df49a1d">
+      <Description></Description>
+      <Attribute Name="Type" ID="a03a0723-af98-481b-9748-7499f4da6bc4">
+        <Description>AppID</Description>
+      </Attribute>
+      <Attribute Name="Description" ID="609b72bc-ca84-4b14-a935-4cf232ecd071">
+        <Description>AppIDDesc</Description>
+        <Constraint Name="Description constraints">
+          <OrdinalScaledType>
+            <RequiredMaxValue>1</RequiredMaxValue>
+            <RequiredMinValue>0</RequiredMinValue>
+          </OrdinalScaledType>
+        </Constraint>
+      </Attribute>
+      <Attribute Name="ProjectName" ID="3b06a9fd-598b-440c-a919-5a50c8613b52">
+        <Description>ProjectName</Description>
+      </Attribute>
+      <Attribute Name="ProjectDescription" ID="c137a6bd-f18f-4eb1-a2bc-30d75b295cb1">
+        <Description>ProjectDesc</Description>
+        <Constraint Name="ProjectDescription constraints">
+          <OrdinalScaledType>
+            <RequiredMaxValue>1</RequiredMaxValue>
+            <RequiredMinValue>0</RequiredMinValue>
+          </OrdinalScaledType>
+        </Constraint>
+      </Attribute>
+      <Attribute Name="Client" ID="d089b27b-b217-4dce-8611-fced98ffe50b">
+        <Description>ProjectClient</Description>
+        <Constraint Name="Client constraints">
+          <OrdinalScaledType>
+            <RequiredMaxValue>1</RequiredMaxValue>
+            <RequiredMinValue>0</RequiredMinValue>
+          </OrdinalScaledType>
+        </Constraint>
+      </Attribute>
+      <Attribute Name="Builder" ID="342f9d3a-5e6f-4761-ab30-e6d3e0bf63aa">
+        <Description>ProjectBuilder</Description>
+        <Constraint Name="Builder constraints">
+          <OrdinalScaledType>
+            <RequiredMaxValue>1</RequiredMaxValue>
+            <RequiredMinValue>0</RequiredMinValue>
+          </OrdinalScaledType>
+        </Constraint>
+      </Attribute>
+      <Attribute Name="Vendor" ID="1b8c4f9e-8781-4aab-b4cf-96b8c5075aca">
+        <Description></Description>
+        <Constraint Name="Vendor constraints">
+          <OrdinalScaledType>
+            <RequiredMaxValue>1</RequiredMaxValue>
+            <RequiredMinValue>0</RequiredMinValue>
+          </OrdinalScaledType>
+        </Constraint>
+      </Attribute>
+      <Attribute Name="EngineeringCompany" ID="b495b58e-0a12-449f-aa10-b8e04853cfeb">
+        <Description>ProjectEngComp</Description>
+        <Constraint Name="EngineeringCompany constraints">
+          <OrdinalScaledType>
+            <RequiredMaxValue>1</RequiredMaxValue>
+            <RequiredMinValue>0</RequiredMinValue>
+          </OrdinalScaledType>
+        </Constraint>
+      </Attribute>
+      <Attribute Name="HullNumber" ID="db46a373-05e1-448c-bcb3-496ea85a06ff">
+        <Description>ProjectHullNr</Description>
+        <Constraint Name="HullNumber constraints">
+          <OrdinalScaledType>
+            <RequiredMaxValue>1</RequiredMaxValue>
+            <RequiredMinValue>0</RequiredMinValue>
+          </OrdinalScaledType>
+        </Constraint>
+      </Attribute>
+      <Attribute Name="ApprovedBy" ID="659bb6c8-f4ed-4f5b-b161-1755a64e3409">
+        <Description></Description>
+      </Attribute>
+      <Attribute Name="IssuedBy" ID="60c4d8a1-aa0b-48c6-8418-f8708fb434a7">
+        <Description></Description>
+      </Attribute>
+      <Attribute Name="FacilityName" ID="32b59da4-ee86-446e-890d-6064f96d3378">
+        <Description></Description>
+        <Constraint Name="FacilityName constraints">
+          <OrdinalScaledType>
+            <RequiredMaxValue>1</RequiredMaxValue>
+            <RequiredMinValue>0</RequiredMinValue>
+          </OrdinalScaledType>
+        </Constraint>
+      </Attribute>
+      <Attribute Name="CheckedBy" ID="94b7e497-2248-4b92-b29b-56a77cc040c7">
+        <Description></Description>
+      </Attribute>
+      <InternalElement Name="CELevel" ID="b21eab3b-4639-496d-94ee-33cd68ded4ac">
+        <Description></Description>
+        <Attribute Name="ID" ID="12d7a370-1938-4f69-970b-899e6d46b2fc">
+          <Description></Description>
+        </Attribute>
+        <Attribute Name="Description" ID="55842935-d625-45e5-8f8a-cf14e63ee82a">
+          <Description>LevelDesc</Description>
+        </Attribute>
+        <Attribute Name="Note" ID="b93a577a-400f-4430-8d68-3f904c88cfac">
+          <Description></Description>
+          <Constraint Name="Note constraints">
+            <OrdinalScaledType>
+              <RequiredMaxValue>1</RequiredMaxValue>
+              <RequiredMinValue>0</RequiredMinValue>
+            </OrdinalScaledType>
+          </Constraint>
+        </Attribute>
+        <Attribute Name="ApprovedBy" ID="8175e117-5b5b-4212-9f7c-3b5b309f6415">
+          <Description></Description>
+        </Attribute>
+        <Attribute Name="IssuedBy" ID="7627d93b-8f46-4ee0-b39f-450237b1da23">
+          <Description></Description>
+        </Attribute>
+        <Attribute Name="CheckedBy" ID="2754d071-5070-45da-ac8f-5fd616cb6b78">
+          <Description></Description>
+        </Attribute>
+        <Attribute Name="AreaDescription" ID="ef9bcd23-c897-4a64-b2bd-e53de51743ff">
+          <Description></Description>
+          <Constraint Name="AreaDescription constraints">
+            <OrdinalScaledType>
+              <RequiredMaxValue>1</RequiredMaxValue>
+              <RequiredMinValue>0</RequiredMinValue>
+            </OrdinalScaledType>
+          </Constraint>
+        </Attribute>
+        <InternalElement Name="CauseGroup" ID="26f3e924-6446-43f8-ab5e-d71c2524c73d">
+          <Description></Description>
+          <Attribute Name="Description" ID="4d32745a-757a-48ff-a7a9-aaecf9e0b0d3">
+            <Description>TypicalDesc</Description>
+            <Constraint Name="Description constraints">
+              <OrdinalScaledType>
+                <RequiredMaxValue>1</RequiredMaxValue>
+                <RequiredMinValue>0</RequiredMinValue>
+              </OrdinalScaledType>
+            </Constraint>
+          </Attribute>
+          <Attribute Name="LineNumber" ID="a571710a-b41d-44b3-aa91-598e962fa0f0">
+            <Description></Description>
+          </Attribute>
+          <InternalElement Name="Cause" ID="748c2874-3cfd-409f-bf05-4d508b10bac8">
+            <Description></Description>
+            <Attribute Name="ID" ID="aad67b37-148b-41ce-a48f-5bcd3bc4d2f8">
+              <Description>CauseNr</Description>
+            </Attribute>
+            <Attribute Name="Description" ID="c4f9cf3c-3f8a-4408-8b1d-0d0e7b310d2e">
+              <Description>CauseDesc</Description>
+            </Attribute>
+            <Attribute Name="Role" ID="e7e6f213-8903-4a0d-95b6-7e4d593411d9">
+              <Description></Description>
+            </Attribute>
+            <Attribute Name="LineNumber" ID="3fa5b44a-0e95-4296-92ba-5149743bef53">
+              <Description>CauseLineNr</Description>
+            </Attribute>
+            <Attribute Name="Delay" ID="01c20b95-a55e-4bc2-ba94-b87707ecd97e">
+              <Description>CauseTimeDel</Description>
+              <Constraint Name="Delay constraints">
+                <OrdinalScaledType>
+                  <RequiredMaxValue>1</RequiredMaxValue>
+                  <RequiredMinValue>0</RequiredMinValue>
+                </OrdinalScaledType>
+              </Constraint>
+            </Attribute>
+            <Attribute Name="Note" ID="ce3b8b07-5e43-4aeb-b7e6-dce422a236fe">
+              <Description></Description>
+              <Constraint Name="Note constraints">
+                <OrdinalScaledType>
+                  <RequiredMaxValue>1</RequiredMaxValue>
+                  <RequiredMinValue>0</RequiredMinValue>
+                </OrdinalScaledType>
+              </Constraint>
+            </Attribute>
+            <Attribute Name="DocumentRef" ID="502c8c2d-24c6-4b80-b098-d5ef4c1e3263">
+              <Description></Description>
+              <Constraint Name="DocumentRef constraints">
+                <OrdinalScaledType>
+                  <RequiredMaxValue>1</RequiredMaxValue>
+                  <RequiredMinValue>0</RequiredMinValue>
+                </OrdinalScaledType>
+              </Constraint>
+            </Attribute>
+            <Attribute Name="AreaDescription" ID="8a25c51c-cc84-422a-b0ad-959cec155d92">
+              <Description></Description>
+              <Constraint Name="AreaDescription constraints">
+                <OrdinalScaledType>
+                  <RequiredMaxValue>1</RequiredMaxValue>
+                  <RequiredMinValue>0</RequiredMinValue>
+                </OrdinalScaledType>
+              </Constraint>
+            </Attribute>
+            <InternalElement Name="LocalEffectReference" ID="4d86adfc-7d20-4a4b-95d9-fb9b2f169b27">
+              <Description></Description>
+              <Attribute Name="ActivationMode" ID="c8993885-4ed6-4607-a8e0-055cd0ae3cf6">
+                <Description></Description>
+              </Attribute>
+              <Attribute Name="EffectID" ID="3165e878-ba00-425a-8c2c-393f9bbae891">
+                <Description></Description>
+              </Attribute>
+            </InternalElement>
+            <InternalElement Name="GlobalEffectReference" ID="8502c303-ebcf-440c-869c-dfcf7b38ea57">
+              <Description></Description>
+              <Attribute Name="EffectTag" ID="ae7a2de4-d599-4a5b-af48-89f2a1de24ab">
+                <Description></Description>
+              </Attribute>
+            </InternalElement>
+          </InternalElement>
+          <InternalElement Name="InitiatorReference" ID="99f5df21-faf2-43ea-8fa8-a106ba279aa8">
+            <Description></Description>
+            <Attribute Name="InitiatorTag" ID="5036f36e-22f0-4c85-a133-48dd7c74e22a">
+              <Description>Tags</Description>
+            </Attribute>
+            <Attribute Name="Trigger" ID="8b136133-54ae-4e56-90c8-ae716faf65a1">
+              <Description>FuncCode</Description>
+            </Attribute>
+          </InternalElement>
+        </InternalElement>
+        <InternalElement Name="EffectGroup" ID="fac6d349-28b5-4d87-bc80-7e20ba7b76c0">
+          <Description></Description>
+          <Attribute Name="Description" ID="883b82a1-05d3-4d0b-983e-38ffc71fa8e9">
+            <Description>EffectTypDesc</Description>
+            <Constraint Name="Description constraints">
+              <OrdinalScaledType>
+                <RequiredMaxValue>1</RequiredMaxValue>
+                <RequiredMinValue>0</RequiredMinValue>
+              </OrdinalScaledType>
+            </Constraint>
+          </Attribute>
+          <Attribute Name="LineNumber" ID="28a53078-5583-4795-82fa-e9287f461ba8">
+            <Description>EffectTypLine</Description>
+          </Attribute>
+          <InternalElement Name="Effect" ID="bc262718-b07d-43ca-92f2-7bfe06da0849">
+            <Description></Description>
+            <Attribute Name="ID" ID="383a0fdb-77d9-40cf-86f1-70fb07060dcd">
+              <Description>EffectNr</Description>
+            </Attribute>
+            <Attribute Name="Description" ID="37d39449-9a5f-4ebc-9ade-708e0d3eb5f5">
+              <Description>EffectDesc</Description>
+            </Attribute>
+            <Attribute Name="LineNumber" ID="815f0ba4-b7f6-4b94-820d-a1faa3dbfe0d">
+              <Description>EffectLineNr</Description>
+            </Attribute>
+            <Attribute Name="Note" ID="b18e2028-4925-46c9-92a3-e8efa9ef7a0b">
+              <Description></Description>
+              <Constraint Name="Note constraints">
+                <OrdinalScaledType>
+                  <RequiredMaxValue>1</RequiredMaxValue>
+                  <RequiredMinValue>0</RequiredMinValue>
+                </OrdinalScaledType>
+              </Constraint>
+            </Attribute>
+            <Attribute Name="DocumentRef" ID="d0e03d1a-6b1c-42cc-9f1c-a911c1a2b840">
+              <Description></Description>
+              <Constraint Name="DocumentRef constraints">
+                <OrdinalScaledType>
+                  <RequiredMaxValue>1</RequiredMaxValue>
+                  <RequiredMinValue>0</RequiredMinValue>
+                </OrdinalScaledType>
+              </Constraint>
+            </Attribute>
+            <Attribute Name="Tag" ID="464063af-2ce4-4b7d-87c9-1467888e7d31">
+              <Description></Description>
+              <Constraint Name="Tag constraints">
+                <OrdinalScaledType>
+                  <RequiredMaxValue>1</RequiredMaxValue>
+                  <RequiredMinValue>0</RequiredMinValue>
+                </OrdinalScaledType>
+              </Constraint>
+            </Attribute>
+            <InternalElement Name="FinalElementReference" ID="75625823-7c91-4213-b9a4-5d11c8e75617">
+              <Description></Description>
+              <Attribute Name="FinalElementTag" ID="5a80305a-b5a8-477d-85cd-0247b6a34ee9">
+                <Description>Tags</Description>
+              </Attribute>
+              <Attribute Name="Function" ID="0e6064a5-5295-4be9-967c-d4a6fe858353">
+                <Description>FuncCode</Description>
+              </Attribute>
+            </InternalElement>
+          </InternalElement>
+        </InternalElement>
+      </InternalElement>
+    </SystemUnitClass>
+  </SystemUnitClassLib>
+  <SystemUnitClassLib Name="SIF Unit Classes">
+    <Description></Description>
+    <SystemUnitClass Name="SIF" ID="391adeff-dbb7-4fea-9643-890f55ce7bf1">
+      <Description>Hei</Description>
+      <Attribute Name="SIFID" ID="0c311b59-9a1a-4e27-95b4-0cb40a71c501">
+        <Description></Description>
+      </Attribute>
+      <InternalElement Name="SIFSubsystem" ID="f3cdc6ac-fc36-4fac-b037-d386ff2a8365">
+        <Description></Description>
+        <Attribute Name="PFD" ID="6c7495d6-aeab-4446-98d5-a743fcad73c9" AttributeDataType="xs:decimal">
+          <Description></Description>
+        </Attribute>
+        <Attribute Name="SIL" ID="00b5c8d1-5d54-4b32-ba65-29954971c8ef">
+          <Description></Description>
+        </Attribute>
+        <Attribute Name="SRT" ID="ed8baec9-1f7d-4dba-a857-9a8b49e2c7dd">
+          <Description></Description>
+        </Attribute>
+        <Attribute Name="MTBF" ID="7a7eb4f9-8d93-415f-8d5a-e8c7d32cf019">
+          <Description></Description>
+        </Attribute>
+        <Attribute Name="PST" ID="f01088ee-7c9a-4e68-b610-c16ece03dff3">
+          <Description></Description>
+        </Attribute>
+        <Attribute Name="TI" ID="c7f02d95-3de9-421b-ad9f-81d66462df47">
+          <Description></Description>
+          <DefaultValue>8760</DefaultValue>
+          <Value>8760</Value>
+        </Attribute>
+        <InternalElement Name="Initiator" ID="6b818f33-6ca0-4e6b-bedd-13c4f341f10f" RefBaseSystemUnitPath="SIF Unit Classes/SIFComponent">
+          <Description></Description>
+          <InternalElement Name="InitiatorGroup" ID="fa2a2316-0401-4f71-be81-8282ece021d3" RefBaseSystemUnitPath="SIF Unit Classes/Group">
+            <Description></Description>
+          </InternalElement>
+        </InternalElement>
+        <InternalElement Name="Solver" ID="0861cda7-2201-45cd-8290-1c98454e6db6" RefBaseSystemUnitPath="SIF Unit Classes/SIFComponent">
+          <Description></Description>
+          <InternalElement Name="SolverGroup" ID="2f822459-cef2-4e58-bec0-195ae5af5b4c" RefBaseSystemUnitPath="SIF Unit Classes/Group">
+            <Description></Description>
+          </InternalElement>
+        </InternalElement>
+        <InternalElement Name="FinalElement" ID="eafb82bf-11b2-4db9-abb7-cc57056394cb" RefBaseSystemUnitPath="SIF Unit Classes/SIFComponent">
+          <Description></Description>
+          <Attribute Name="SafeState" ID="ca5083ba-f1aa-476c-9a1d-d94327561533">
+            <Description></Description>
+          </Attribute>
+          <InternalElement Name="FinalGroup" ID="b22f3e41-833e-44fa-828c-b1922ed85565" RefBaseSystemUnitPath="SIF Unit Classes/Group">
+            <Description></Description>
+          </InternalElement>
+        </InternalElement>
+      </InternalElement>
+    </SystemUnitClass>
+    <SystemUnitClass Name="Group" ID="7fc7bcc2-2b28-44ae-a960-b4e51843f0ea">
+      <Description></Description>
+      <InternalElement Name="ComponentVoter" ID="37e6014b-0f0e-46fb-9772-e3ccf9be2bad">
+        <Description></Description>
+        <Attribute Name="M" ID="c6fec4d3-f935-47c9-98d6-440133036565">
+          <Description></Description>
+          <Value>1</Value>
+        </Attribute>
+      </InternalElement>
+    </SystemUnitClass>
+    <SystemUnitClass Name="SIFComponent" ID="af8adebc-34a5-4a09-a3be-7f7b7c6bb5c7">
+      <Description></Description>
+      <Attribute Name="PFDContribution" ID="7f1fd078-495c-46bb-8596-4f06fad80d05">
+        <Description></Description>
+      </Attribute>
+      <Attribute Name="MTBF" ID="f12dddeb-6b13-451d-a384-5f62fd2ecb3d">
+        <Description></Description>
+      </Attribute>
+      <Attribute Name="MTTR" ID="b0ee505d-0acc-40c3-8011-136a8b427df9">
+        <Description></Description>
+      </Attribute>
+      <Attribute Name="LoopTypical" ID="9ef626a3-5f1e-45f3-8de9-44537ec9bb4d">
+        <Description></Description>
+      </Attribute>
+      <Attribute Name="LT" ID="1bcab939-0445-4d94-a0b7-7004a6dad37b">
+        <Description></Description>
+      </Attribute>
+      <Attribute Name="RT" ID="8f05d6b2-bb6b-48c3-9da7-1ebb43ebecd6">
+        <Description></Description>
+      </Attribute>
+      <Attribute Name="PTI" ID="e6d67f35-8d43-469d-a57d-7a83c3731cd5">
+        <Description></Description>
+      </Attribute>
+      <Attribute Name="PTC" ID="f96c9a3a-d30a-4277-80a3-cc1a72a63e66">
+        <Description></Description>
+      </Attribute>
+      <Attribute Name="λDU" ID="fc389880-7c97-449e-8756-7c39891de05c">
+        <Description></Description>
+      </Attribute>
+      <Attribute Name="λDD" ID="379a3f3b-e61e-4241-a1be-5b8f4407446a">
+        <Description></Description>
+      </Attribute>
+      <Attribute Name="λS" ID="ed39b874-0813-4858-a118-74c4cb172630">
+        <Description></Description>
+      </Attribute>
+      <Attribute Name="SFF" ID="ee400380-4f6b-4d40-9951-f95647aecb3e">
+        <Description></Description>
+      </Attribute>
+      <Attribute Name="DC" ID="f2a85463-3a37-4e69-a77c-c36871450614">
+        <Description></Description>
+      </Attribute>
+      <Attribute Name="β" ID="8150013c-637f-41a7-9c74-c167b00794ba">
+        <Description></Description>
+      </Attribute>
+      <Attribute Name="SIL" ID="221195db-cd85-4903-b083-7ea712f49b78">
+        <Description></Description>
+      </Attribute>
+      <InternalElement Name="GroupVoter" ID="bbe92b67-7e07-43f3-a6b7-90d1859b1d69">
+        <Description></Description>
+        <Attribute Name="M" ID="867f5d2b-0a28-456c-81c5-b0d70e6adc89">
+          <Description></Description>
+          <Value>1</Value>
+        </Attribute>
+      </InternalElement>
+    </SystemUnitClass>
+  </SystemUnitClassLib>
+  <SystemUnitClassLib Name="Specification">
+    <Description></Description>
+    <SystemUnitClass Name="SafetyRequirementSpecification" ID="ab103270-1811-47cd-9dc2-061ca201af90">
+      <Description></Description>
+      <Attribute Name="Required PFD" ID="223c4dbf-9ff5-4f21-85d8-807aa4b202e4">
+        <Description></Description>
+      </Attribute>
+      <Attribute Name="Required SIL" ID="e244c0c4-86da-47b0-b20a-92ec425a710e">
+        <Description></Description>
+      </Attribute>
+      <Attribute Name="Required SRT" ID="4ba07ca0-334e-4155-a7a4-87f072772f1c">
+        <Description></Description>
+      </Attribute>
+      <Attribute Name="Required MTBF" ID="ce682150-d1d7-4f2f-83e0-87152965aa84">
+        <Description></Description>
+      </Attribute>
+      <Attribute Name="Required PST" ID="f7b9c73e-d261-4ab0-9e1c-bdd17d159571">
+        <Description></Description>
+      </Attribute>
+      <Attribute Name="Required TI" ID="ad997f17-060c-4b1d-b0ef-f83c00ecb9d4">
+        <Description></Description>
+      </Attribute>
+    </SystemUnitClass>
+  </SystemUnitClassLib>
+  <SystemUnitClassLib Name="SIS Unit Classes">
+    <Description></Description>
+    <SystemUnitClass Name="FinalComponent" ID="3be56af4-f6d0-47df-bcf9-652aa5884615" RefBaseClassPath="SIS Unit Classes/SISComponent">
+      <Description></Description>
+      <Attribute Name="Function" ID="0f9c4e35-5f4a-496d-aa0b-1114d03bd53b">
+        <Description></Description>
+      </Attribute>
+      <Attribute Name="LoopTypical" ID="6601c6f6-b115-46c4-ba5c-b50812cf09a4">
+        <Description></Description>
+      </Attribute>
+      <Attribute Name="PTI" ID="dc91dfb8-532f-4f5e-a01a-7dcc3bb31a0e">
+        <Description></Description>
+        <DefaultValue>8760</DefaultValue>
+        <Value>8760</Value>
+      </Attribute>
+      <Attribute Name="SafeState" ID="0273d1e4-0f41-491d-b1b5-b1d5b9660dbd">
+        <Description></Description>
+      </Attribute>
+      <Attribute Name="PFD" ID="b1292794-4fac-447f-b300-70eed2079923" AttributeDataType="xs:decimal">
+        <Description></Description>
+        <Value>0</Value>
+      </Attribute>
+    </SystemUnitClass>
+    <SystemUnitClass Name="InitiatorComponent" ID="315e4df1-20af-4d2d-aa31-a303f8a6b37d" RefBaseClassPath="SIS Unit Classes/SISComponent">
+      <Description></Description>
+      <Attribute Name="Criteria" ID="42f56dd5-0019-4112-82b2-88846484d1fd">
+        <Description></Description>
+        <Constraint Name="Criteria constraints">
+          <OrdinalScaledType>
+            <RequiredMaxValue>-1</RequiredMaxValue>
+            <RequiredMinValue>1</RequiredMinValue>
+          </OrdinalScaledType>
+        </Constraint>
+      </Attribute>
+      <Attribute Name="LoopTypical" ID="960cec67-d857-417b-8a96-b10cdd8051ed">
+        <Description></Description>
+      </Attribute>
+      <Attribute Name="PFD" ID="a19a3d6e-84c1-4a8c-b2cd-6f4be3c47dfa" AttributeDataType="xs:decimal">
+        <Description></Description>
+        <Value>0</Value>
+      </Attribute>
+      <Attribute Name="TI" ID="2522a79a-405e-4807-9827-6d8a1a71dbaa">
+        <Description></Description>
+        <DefaultValue>8760</DefaultValue>
+        <Value>8760</Value>
+      </Attribute>
+    </SystemUnitClass>
+    <SystemUnitClass Name="SIS" ID="4156ae22-4a47-4305-9d01-a83ec6495418">
+      <Description></Description>
+      <Attribute Name="SISID" ID="3fd29e5f-b00f-42b4-9e20-e20553bebbe7">
+        <Description></Description>
+      </Attribute>
+    </SystemUnitClass>
+    <SystemUnitClass Name="SolverComponent" ID="ffec86dc-87ba-492d-86da-93343a328e81" RefBaseClassPath="SIS Unit Classes/SISComponent">
+      <Description></Description>
+      <Attribute Name="PFD" ID="89620312-0ed1-429d-9d31-fdbf8a9b29ac" AttributeDataType="xs:decimal">
+        <Description></Description>
+        <Value>0</Value>
+      </Attribute>
+      <Attribute Name="TI" ID="65683fdd-56bc-463d-a1dc-313b685ed399">
+        <Description></Description>
+        <DefaultValue>8760</DefaultValue>
+        <Value>8760</Value>
+      </Attribute>
+    </SystemUnitClass>
+    <SystemUnitClass Name="SISComponent" ID="f4abe12f-e900-4b9e-90a1-d5e17f76dfb5">
+      <Description></Description>
+      <Attribute Name="SIL" ID="f91df4ab-3953-4070-9cb6-e25f211a16ec">
+        <Description></Description>
+      </Attribute>
+    </SystemUnitClass>
+    <SystemUnitClass Name="ESD" ID="c34bd3d9-0b31-4207-9c7b-ae28595c9714" RefBaseClassPath="SIS Unit Classes/SIS">
+      <Description></Description>
+    </SystemUnitClass>
+    <SystemUnitClass Name="FG" ID="d6a3045a-9b54-4927-9a6d-403ef211d5a5" RefBaseClassPath="SIS Unit Classes/SIS">
+      <Description></Description>
+    </SystemUnitClass>
+    <SystemUnitClass Name="PSD" ID="9ebd8b53-89b5-4555-a498-61c5b33db0b9" RefBaseClassPath="SIS Unit Classes/SIS">
+      <Description></Description>
+    </SystemUnitClass>
+    <SystemUnitClass Name="HIPPS" ID="05dd6532-ae43-4ca2-bd38-c75ab947090f" RefBaseClassPath="SIS Unit Classes/SIS">
+      <Description></Description>
+    </SystemUnitClass>
+  </SystemUnitClassLib>
+</CAEXFile>

@@ -1,0 +1,2 @@
+SIF Name,SIFID Value,SIFID DefaultValue,SIFID Description,SIF Typical ID,PFD Value,PFD DefaultValue,PFD Description,SIL Value,SIL DefaultValue,SIL Description,SRT Value,SRT DefaultValue,SRT Description,MTBF Value,MTBF DefaultValue,MTBF Description,PST Value,PST DefaultValue,PST Description,TI Value,TI DefaultValue,TI Description
+SIF,SF 71.01.01-001,N/A,N/A,SIFSubsystem,0.01,N/A,N/A,SIL2,N/A,N/A,8,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,8760,N/A

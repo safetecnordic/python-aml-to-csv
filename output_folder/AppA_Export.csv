@@ -1,0 +1,16 @@
+Tag ID,Category,SIL Value,SIL DefaultValue,SIL Description,PFD Value,PFD DefaultValue,PFD Description,TI Value,TI DefaultValue,TI Description,Function Value,Function DefaultValue,Function Description,LoopTypical Value,LoopTypical DefaultValue,LoopTypical Description,PTI Value,PTI DefaultValue,PTI Description,SafeState Value,SafeState DefaultValue,SafeState Description
+SolverComponent (Insert TAG ID),SIF,SIL2,SIL2,N/A,0.0015,N/A,N/A,8760,8760,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+71PI100,SIF,SIL2,N/A,N/A,0.0025,N/A,N/A,N/A,N/A,N/A,Solenoid,N/A,N/A,N/A,N/A,N/A,336,8760,N/A,De-energize,N/A,N/A
+71YI1200,SIF,SIL2,N/A,N/A,0.0025,N/A,N/A,N/A,N/A,N/A,Solenoid,N/A,N/A,N/A,N/A,N/A,336,8760,N/A,De-energize,N/A,N/A
+VC71-6018,SIF,SIL2,N/A,N/A,0.0025,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,336,8760,N/A,Open,N/A,N/A
+71PI200,SIF,SIL2,N/A,N/A,0.0025,N/A,N/A,N/A,N/A,N/A,Solenoid,N/A,N/A,N/A,N/A,N/A,336,8760,N/A,De-energize,N/A,N/A
+71YI2200,SIF,SIL2,N/A,N/A,0.0025,N/A,N/A,N/A,N/A,N/A,Solenoid,N/A,N/A,N/A,N/A,N/A,336,8760,N/A,De-energize,N/A,N/A
+VC71-6017,SIF,SIL2,N/A,N/A,0.0025,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,336,8760,N/A,Open,N/A,N/A
+71PI300,SIF,SIL2,N/A,N/A,0.0025,N/A,N/A,N/A,N/A,N/A,Solenoid,N/A,N/A,N/A,N/A,N/A,336,8760,N/A,De-energize,N/A,N/A
+71YI3200,SIF,SIL2,N/A,N/A,0.0025,N/A,N/A,N/A,N/A,N/A,Solenoid,N/A,N/A,N/A,N/A,N/A,336,8760,N/A,De-energize,N/A,N/A
+VC71-6018,SIF,SIL2,N/A,N/A,0.0025,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,336,8760,N/A,Open,N/A,N/A
+71PI400,SIF,SIL2,N/A,N/A,0.0025,N/A,N/A,N/A,N/A,N/A,Solenoid,N/A,N/A,N/A,N/A,N/A,336,8760,N/A,De-energize,N/A,N/A
+71YI4200,SIF,SIL2,N/A,N/A,0.0025,N/A,N/A,N/A,N/A,N/A,Solenoid,N/A,N/A,N/A,N/A,N/A,336,8760,N/A,De-energize,N/A,N/A
+VC71-6015,SIF,SIL2,N/A,N/A,0.0025,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,336,8760,N/A,Open,N/A,N/A
+71XSY0100,SIF,SIL2,N/A,N/A,0.005,N/A,N/A,N/A,N/A,N/A,Solenoid,N/A,N/A,N/A,N/A,N/A,4380,8760,N/A,De-energize,N/A,N/A
+71XSV0100,SIF,SIL2,N/A,N/A,0.005,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,4380,8760,N/A,Open,N/A,N/A

@@ -1,0 +1,16 @@
+Category,Group_L1,Voting_L1,Group_L2,Voting_L2,Group_L3,Voting_L3
+Solver,SolverComponent (Insert TAG ID),1,N/A,N/A,N/A,N/A
+FinalElement,Group 1,2,FinalGroup1,3,71PI100,3
+FinalElement,Group 1,2,FinalGroup1,3,71YI1200,3
+FinalElement,Group 1,2,FinalGroup1,3,VC71-6018,3
+FinalElement,Group 1,2,FinalGroup2,3,71PI200,3
+FinalElement,Group 1,2,FinalGroup2,3,71YI2200,3
+FinalElement,Group 1,2,FinalGroup2,3,VC71-6017,3
+FinalElement,Group 1,2,FinalGroup3,3,71PI300,3
+FinalElement,Group 1,2,FinalGroup3,3,71YI3200,3
+FinalElement,Group 1,2,FinalGroup3,3,VC71-6018,3
+FinalElement,Group 1,2,FinalGroup4,3,71PI400,3
+FinalElement,Group 1,2,FinalGroup4,3,71YI4200,3
+FinalElement,Group 1,2,FinalGroup4,3,VC71-6015,3
+FinalElement,Group 2,2,71XSY0100,2,N/A,N/A
+FinalElement,Group 2,2,71XSV0100,2,N/A,N/A
